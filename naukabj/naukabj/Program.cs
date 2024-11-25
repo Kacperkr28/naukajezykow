@@ -1,4 +1,4 @@
-﻿class Program
+class Program
 {
     static void Main()
     {
@@ -7,15 +7,16 @@
         var exporter = new PDFExporter();
         var emailSender = new EmailSender();
 
-        while (true) // Pętla działa dopóki użytkownik nie wybierze opcji zakończenia
+        while (true)
         {
-            Console.Clear(); // Czyści konsolę, aby łatwiej było przeglądać menu
-            Console.WriteLine("Witaj w aplikacji BJ!");
-            Console.WriteLine("1. Dodaj słowko");
+            Console.Clear();
+            Console.WriteLine("Witaj w aplikacji Flashcards!");
+            Console.WriteLine("1. Dodaj fiszkę");
             Console.WriteLine("2. Rozpocznij test");
             Console.WriteLine("3. Eksportuj talie do PDF");
             Console.WriteLine("4. Wyślij statystyki e-mailem");
-            Console.WriteLine("5. Zakończ program");
+            Console.WriteLine("5. Wyświetl istniejące talie i fiszki");
+            Console.WriteLine("6. Zakończ program");
             Console.Write("Wybierz opcję: ");
 
             string? choiceInput = Console.ReadLine();
@@ -82,9 +83,13 @@
                     Console.WriteLine("E-mail został wysłany.");
                     break;
 
-                case 5:
+                case 5: // Nowa opcja
+                    DisplayDecksAndFlashcards(manager);
+                    break;
+
+                case 6:
                     Console.WriteLine("Dziękujemy za skorzystanie z aplikacji Flashcards. Do zobaczenia!");
-                    return; // Zakończenie programu
+                    return;
 
                 default:
                     Console.WriteLine("Nieprawidłowy wybór. Spróbuj ponownie.");
@@ -93,6 +98,29 @@
 
             Console.WriteLine("\nNaciśnij dowolny klawisz, aby wrócić do menu...");
             Console.ReadKey();
+        }
+    }
+
+    static void DisplayDecksAndFlashcards(FlashcardManager manager)
+    {
+        var decks = manager.LoadDecks();
+
+        if (decks.Count == 0)
+        {
+            Console.WriteLine("Brak zapisanych talii.");
+            return;
+        }
+
+        Console.WriteLine("Istniejące talie i fiszki:\n");
+        foreach (var deck in decks)
+        {
+            Console.WriteLine($"Talia: {deck.Name}");
+            foreach (var card in deck.Flashcards)
+            {
+                Console.WriteLine($"  - Pytanie: {card.Question}");
+                Console.WriteLine($"    Odpowiedź: {card.Answer}");
+            }
+            Console.WriteLine();
         }
     }
 }
