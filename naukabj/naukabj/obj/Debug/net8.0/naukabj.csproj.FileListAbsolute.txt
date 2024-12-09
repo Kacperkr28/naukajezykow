@@ -52,3 +52,12 @@
 \\zstsrv\krawczyk.kacper$$\desktop\Krawczyk Kacper\projekt nauka\naukabj\naukabj\obj\Debug\net8.0\naukabj.pdb
 \\zstsrv\krawczyk.kacper$$\desktop\Krawczyk Kacper\projekt nauka\naukabj\naukabj\obj\Debug\net8.0\naukabj.genruntimeconfig.cache
 \\zstsrv\krawczyk.kacper$$\desktop\Krawczyk Kacper\projekt nauka\naukabj\naukabj\obj\Debug\net8.0\ref\naukabj.dll
+\\zstsrv\krawczyk.kacper$$\desktop\Krawczyk Kacper\projekt nauka\naukajezykow\naukabj\naukabj\obj\Debug\net8.0\naukabj.csproj.AssemblyReference.cache
+\\zstsrv\krawczyk.kacper$$\desktop\Krawczyk Kacper\projekt nauka\naukajezykow\naukabj\naukabj\obj\Debug\net8.0\naukabj.GeneratedMSBuildEditorConfig.editorconfig
+\\zstsrv\krawczyk.kacper$$\desktop\Krawczyk Kacper\projekt nauka\naukajezykow\naukabj\naukabj\obj\Debug\net8.0\naukabj.AssemblyInfoInputs.cache
+\\zstsrv\krawczyk.kacper$$\desktop\Krawczyk Kacper\projekt nauka\naukajezykow\naukabj\naukabj\obj\Debug\net8.0\naukabj.AssemblyInfo.cs
+\\zstsrv\krawczyk.kacper$$\desktop\Krawczyk Kacper\projekt nauka\naukajezykow\naukabj\naukabj\obj\Debug\net8.0\naukabj.csproj.CoreCompileInputs.cache
+\\zstsrv\krawczyk.kacper$$\desktop\Krawczyk Kacper\projekt nauka\naukajezykow\naukabj\naukabj\obj\Debug\net8.0\naukabj.sourcelink.json
+\\zstsrv\krawczyk.kacper$$\desktop\Krawczyk Kacper\projekt nauka\naukajezykow\naukabj\naukabj\obj\Debug\net8.0\naukabj.dll
+\\zstsrv\krawczyk.kacper$$\desktop\Krawczyk Kacper\projekt nauka\naukajezykow\naukabj\naukabj\obj\Debug\net8.0\refint\naukabj.dll
+\\zstsrv\krawczyk.kacper$$\desktop\Krawczyk Kacper\projekt nauka\naukajezykow\naukabj\naukabj\obj\Debug\net8.0\naukabj.pdb
