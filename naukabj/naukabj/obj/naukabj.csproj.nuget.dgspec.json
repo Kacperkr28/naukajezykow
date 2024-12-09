@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "\\\\zstsrv\\krawczyk.kacper$$\\desktop\\Krawczyk Kacper\\projekt nauka\\naukabj\\naukabj\\naukabj.csproj": {}
+    "\\\\zstsrv\\krawczyk.kacper$$\\desktop\\Krawczyk Kacper\\programowanie obiektowe\\naukabj\\naukabj\\naukabj.csproj": {}
   },
   "projects": {
-    "\\\\zstsrv\\krawczyk.kacper$$\\desktop\\Krawczyk Kacper\\projekt nauka\\naukabj\\naukabj\\naukabj.csproj": {
+    "\\\\zstsrv\\krawczyk.kacper$$\\desktop\\Krawczyk Kacper\\programowanie obiektowe\\naukabj\\naukabj\\naukabj.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\zstsrv\\krawczyk.kacper$$\\desktop\\Krawczyk Kacper\\projekt nauka\\naukabj\\naukabj\\naukabj.csproj",
+        "projectUniqueName": "\\\\zstsrv\\krawczyk.kacper$$\\desktop\\Krawczyk Kacper\\programowanie obiektowe\\naukabj\\naukabj\\naukabj.csproj",
         "projectName": "naukabj",
-        "projectPath": "\\\\zstsrv\\krawczyk.kacper$$\\desktop\\Krawczyk Kacper\\projekt nauka\\naukabj\\naukabj\\naukabj.csproj",
+        "projectPath": "\\\\zstsrv\\krawczyk.kacper$$\\desktop\\Krawczyk Kacper\\programowanie obiektowe\\naukabj\\naukabj\\naukabj.csproj",
         "packagesPath": "C:\\Users\\krawczyk.kacper\\.nuget\\packages\\",
-        "outputPath": "\\\\zstsrv\\krawczyk.kacper$$\\desktop\\Krawczyk Kacper\\projekt nauka\\naukabj\\naukabj\\obj\\",
+        "outputPath": "\\\\zstsrv\\krawczyk.kacper$$\\desktop\\Krawczyk Kacper\\programowanie obiektowe\\naukabj\\naukabj\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "\\\\zstsrv\\krawczyk.kacper$$\\Application Data\\NuGet\\NuGet.Config",
@@ -45,20 +45,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "LibGit2Sharp": {
-              "target": "Package",
-              "version": "[0.30.0, )"
-            },
-            "MailKit": {
-              "target": "Package",
-              "version": "[4.8.0, )"
-            },
-            "itext7": {
-              "target": "Package",
-              "version": "[9.0.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
